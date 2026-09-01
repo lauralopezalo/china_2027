@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>China 2027 | Comparativa de rutas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Viaje con amigos · Barcelona · Finales de agosto / principios de septiembre de 2027</p>
+        <h1>China 2027</h1>
+        <p class="intro">
+          Tres propuestas para un viaje compartido de unas dos semanas, con una extensión opcional
+          de una semana más para quien quiera alargar la aventura.
+        </p>
+        <div class="hero-meta">
+          <span>6-8 viajeros</span>
+          <span>14 días comunes</span>
+          <span>+ 7 días de extensión</span>
+        </div>
+      </div>
+      <aside class="hero-note">
+        <h2>Punto de separación</h2>
+        <p>
+          Las tres propuestas están pensadas para que el grupo pueda separarse de forma cómoda
+          alrededor del día 15, idealmente en Shanghái.
+        </p>
+      </aside>
+    </header>
+
+    <nav class="route-tabs" aria-label="Seleccionar ruta">
+      <button class="route-tab is-active" data-route="route-1">Ruta 1 · Recomendada</button>
+      <button class="route-tab" data-route="route-2">Ruta 2 · Chengdu</button>
+      <button class="route-tab" data-route="route-3">Ruta 3 · Yangshuo</button>
+      <button class="route-tab" data-route="comparison">Comparativa</button>
+    </nav>
+
+    <main>
+      <section class="route-panel is-active" id="route-1">
+        <div class="route-header">
+          <div>
+            <p class="route-kicker">Ruta 1</p>
+            <h2>Clásicos + Zhangjiajie + sur de China</h2>
+          </div>
+          <div class="budget-box">
+            <strong>14 días: 2.100-2.600 €</strong>
+            <span>21 días: 2.700-3.400 €</span>
+          </div>
+        </div>
+
+        <div class="route-layout">
+          <article class="map-card">
+            <h3>Mapa visual</h3>
+            <svg class="route-map" viewBox="0 0 760 470" aria-label="Mapa esquemático de la ruta 1 por China">
+              <g class="map-legend"><path d="M364 38 H405" class="common-line"></path><text x="417" y="43">14 días comunes</text><path d="M548 38 H589" class="extension-line"></path><text x="601" y="43">+7 días</text></g>
+              <path d="M77 180 C140 133 207 111 266 111" class="flight-line"></path>
+              <path d="M266 111 L347 168 L407 257 L541 210" class="common-line"></path>
+              <path d="M541 210 C528 266 475 309 446 326 L491 344 L553 345" class="extension-line"></path>
+              <g class="city">
+                <circle cx="77" cy="180" r="8"></circle>
+                <text x="42" y="165">Barcelona</text>
+              </g>
+              <g class="city">
+                <circle cx="266" cy="111" r="8"></circle>
+                <text x="234" y="95">Pekín</text>
+              </g>
+              <g class="city">
+                <circle cx="347" cy="168" r="8"></circle>
+                <text x="325" y="152">Xi'an</text>
+              </g>
+              <g class="city">
+                <circle cx="407" cy="257" r="8"></circle>
+                <text x="366" y="248">Zhangjiajie</text>
+              </g>
+              <g class="city split">
+                <circle cx="541" cy="210" r="9"></circle>
+                <text x="515" y="194">Shanghái</text>
+              </g>
+              <g class="city">
+                <circle cx="446" cy="326" r="8"></circle>
+                <text x="432" y="352">Guilin</text>
+              </g>
+              <g class="city">
+                <circle cx="491" cy="344" r="8"></circle>
+                <text x="470" y="374">Yangshuo</text>
+              </g>
+              <g class="city">
+                <circle cx="553" cy="345" r="8"></circle>
+                <text x="541" y="372">Hong Kong</text>
+              </g>
+              <g class="transport"><text x="156" y="105">✈</text><text x="283" y="131">🚄</text><text x="362" y="211">🚄</text><text x="480" y="177">✈</text><text x="470" y="294">✈</text><text x="514" y="320">🚄</text></g>
+              <text x="16" y="442" class="map-note">Mapa esquemático · no está a escala</text>
+            </svg>
+          </article>
+
+          <article class="summary-card">
+            <h3>Por qué gusta</h3>
+            <ul class="check-list">
+              <li>Equilibra grandes clásicos, ciudad y paisajes muy espectaculares.</li>
+              <li>La extensión al sur encaja muy bien después de Shanghái.</li>
+              <li>Es la ruta más redonda para mezclar iconos del viaje y naturaleza.</li>
+              <li>El tramo común ya incluye su gran impacto paisajístico, sin depender de la extensión.</li>
+              <li>Funciona especialmente bien si el grupo tiene gustos variados y quiere evitar renuncias.</li>
+            </ul>
+            <h3>Ritmo</h3>
+            <p>Medio. Tiene varios cambios de ciudad, pero mantiene una narrativa muy clara.</p>
+          </article>
+        </div>
+
+        <section class="stops-grid">
+          <button class="stop-card beijing" type="button" data-stop="beijing" aria-haspopup="dialog">
+            <div class="stop-overlay">
+              <h3>Pekín · 4 noches</h3>
+              <p>Ciudad Prohibida, Templo del Cielo, hutongs y Gran Muralla.</p>
+            </div>
+          </button>
+          <button class="stop-card xian" type="button" data-stop="xian" aria-haspopup="dialog">
+            <div class="stop-overlay">
+              <h3>Xi'an · 2 noches</h3>
+              <p>Guerreros de Terracota, muralla, barrio musulmán y comida callejera.</p>
+            </div>
+          </button>
+          <button class="stop-card zhangjiajie" type="button" data-stop="zhangjiajie" aria-haspopup="dialog">
+            <div class="stop-overlay">
+              <h3>Zhangjiajie · 3 noches</h3>
+              <p>Montañas tipo Avatar, puentes, miradores y naturaleza potente.</p>
+            </div>
+          </button>
+          <button class="stop-card shanghai" type="button" data-stop="shanghai" aria-haspopup="dialog">
+            <div class="stop-overlay">
+              <h3>Shanghái · 4 noches</h3>
+              <p>Bund, concesión francesa, skyline y cierre cómodo del viaje común.</p>
+            </div>
+          </button>
+          <button class="stop-card guilin" type="button" data-stop="guilin" aria-haspopup="dialog">
+            <div class="stop-overlay">
+              <h3>Guilin / Yangshuo · 3 noches</h3>
+              <p>Paisajes kársticos, bici, río Li y ambiente más relajado.</p>
+            </div>
+          </button>
+          <button class="stop-card hongkong" type="button" data-stop="hongkong" aria-haspopup="dialog">
+            <div class="stop-overlay">
+              <h3>Hong Kong · 2 noches</h3>
+              <p>Skyline, ferris, mercados y final internacional muy fácil.</p>
+            </div>
+          </button>
+        </section>
+      </section>
+
+      <section class="route-panel" id="route-2">
+        <div class="route-header">
+          <div>
+            <p class="route-kicker">Ruta 2</p>
+            <h2>Clásicos + Chengdu antes de Shanghái</h2>
+          </div>
+          <div class="budget-box">
+            <strong>14 días: 2.000-2.500 €</strong>
+            <span>21 días: 2.700-3.500 €</span>
+          </div>
+        </div>
+
+        <div class="route-layout">
+          <article class="map-card">
+            <h3>Mapa visual</h3>
+            <svg class="route-map" viewBox="0 0 760 470" aria-label="Mapa esquemático de la ruta 2 por China">
+              <g class="map-legend"><path d="M364 38 H405" class="common-line"></path><text x="417" y="43">14 días comunes</text><path d="M548 38 H589" class="extension-line"></path><text x="601" y="43">+7 días</text></g>
+              <path d="M77 180 C140 133 207 111 266 111" class="flight-line"></path>
+              <path d="M266 111 L347 168 L272 253 L541 210" class="common-line"></path>
+              <path d="M541 210 L407 257 L446 326 L491 344 L553 345" class="extension-line"></path>
+              <g class="city"><circle cx="77" cy="180" r="8"></circle><text x="42" y="165">Barcelona</text></g>
+              <g class="city"><circle cx="266" cy="111" r="8"></circle><text x="234" y="95">Pekín</text></g>
+              <g class="city"><circle cx="347" cy="168" r="8"></circle><text x="325" y="152">Xi'an</text></g>
+              <g class="city"><circle cx="272" cy="253" r="8"></circle><text x="246" y="280">Chengdu</text></g>
+              <g class="city split"><circle cx="541" cy="210" r="9"></circle><text x="515" y="194">Shanghái</text></g>
+              <g class="city"><circle cx="407" cy="257" r="8"></circle><text x="366" y="248">Zhangjiajie</text></g>
+              <g class="city"><circle cx="446" cy="326" r="8"></circle><text x="432" y="352">Guilin</text></g>
+              <g class="city"><circle cx="491" cy="344" r="8"></circle><text x="470" y="374">Yangshuo</text></g>
+              <g class="city"><circle cx="553" cy="345" r="8"></circle><text x="541" y="372">Hong Kong</text></g>
+              <g class="transport"><text x="156" y="105">✈</text><text x="283" y="131">🚄</text><text x="298" y="210">🚄</text><text x="420" y="224">✈</text><text x="474" y="295">✈</text><text x="514" y="320">🚄</text></g>
+              <text x="16" y="442" class="map-note">Mapa esquemático · no está a escala</text>
+            </svg>
+          </article>
+
+          <article class="summary-card">
+            <h3>Por qué gusta</h3>
+            <ul class="check-list">
+              <li>Incluye Chengdu y la parte más gastronómica y relajada del viaje.</li>
+              <li>La parte común es cómoda si queréis priorizar ciudades y pandas.</li>
+              <li>La naturaleza fuerte queda concentrada en la extensión.</li>
+              <li>Permite alternar grandes iconos con una ciudad de ritmo más local y pausado.</li>
+              <li>Es la opción más fácil de defender si la comida es una prioridad del grupo.</li>
+            </ul>
+            <h3>Ritmo</h3>
+            <p>Medio. La primera mitad es urbana y cultural; la segunda se vuelve más paisajística.</p>
+          </article>
+        </div>
+
+        <section class="stops-grid">
+          <button class="stop-card beijing" type="button" data-stop="beijing" aria-haspopup="dialog"><div class="stop-overlay"><h3>Pekín · 4 noches</h3><p>Palacios, hutongs, Templo del Cielo y Gran Muralla.</p></div></button>
+          <button class="stop-card xian" type="button" data-stop="xian" aria-haspopup="dialog"><div class="stop-overlay"><h3>Xi'an · 2 noches</h3><p>Guerreros de Terracota, muralla y barrio musulmán.</p></div></button>
+          <button class="stop-card chengdu" type="button" data-stop="chengdu" aria-haspopup="dialog"><div class="stop-overlay"><h3>Chengdu · 3 noches</h3><p>Pandas, casas de té y cocina de Sichuan.</p></div></button>
+          <button class="stop-card shanghai" type="button" data-stop="shanghai" aria-haspopup="dialog"><div class="stop-overlay"><h3>Shanghái · 4 noches</h3><p>Bund, concesión francesa, skyline y cierre del viaje común.</p></div></button>
+          <button class="stop-card zhangjiajie" type="button" data-stop="zhangjiajie" aria-haspopup="dialog"><div class="stop-overlay"><h3>Zhangjiajie · 3 noches</h3><p>Montañas de Avatar y miradores entre nubes.</p></div></button>
+          <button class="stop-card guilin" type="button" data-stop="guilin" aria-haspopup="dialog"><div class="stop-overlay"><h3>Guilin / Yangshuo · 3 noches</h3><p>Río Li, paisajes kársticos y bici.</p></div></button>
+          <button class="stop-card hongkong" type="button" data-stop="hongkong" aria-haspopup="dialog"><div class="stop-overlay"><h3>Hong Kong · 2 noches</h3><p>Skyline, mercados y final internacional.</p></div></button>
+        </section>
+      </section>
+
+      <section class="route-panel" id="route-3">
+        <div class="route-header">
+          <div>
+            <p class="route-kicker">Ruta 3</p>
+            <h2>Clásicos + Yangshuo en el viaje común</h2>
+          </div>
+          <div class="budget-box">
+            <strong>14 días: 2.100-2.600 €</strong>
+            <span>21 días: 2.800-3.500 €</span>
+          </div>
+        </div>
+
+        <div class="route-layout">
+          <article class="map-card">
+            <h3>Mapa visual</h3>
+            <svg class="route-map" viewBox="0 0 760 470" aria-label="Mapa esquemático de la ruta 3 por China">
+              <g class="map-legend"><path d="M364 38 H405" class="common-line"></path><text x="417" y="43">14 días comunes</text><path d="M548 38 H589" class="extension-line"></path><text x="601" y="43">+7 días</text></g>
+              <path d="M77 180 C140 133 207 111 266 111" class="flight-line"></path>
+              <path d="M266 111 L347 168 L446 326 L541 210" class="common-line"></path>
+              <path d="M541 210 L407 257 L272 253 L330 302 L77 180" class="extension-line"></path>
+              <g class="city"><circle cx="77" cy="180" r="8"></circle><text x="42" y="165">Barcelona</text></g>
+              <g class="city"><circle cx="266" cy="111" r="8"></circle><text x="234" y="95">Pekín</text></g>
+              <g class="city"><circle cx="347" cy="168" r="8"></circle><text x="325" y="152">Xi'an</text></g>
+              <g class="city"><circle cx="446" cy="326" r="8"></circle><text x="432" y="352">Guilin</text></g>
+              <g class="city"><circle cx="541" cy="210" r="9"></circle><text x="515" y="194">Shanghái</text></g>
+              <g class="city"><circle cx="407" cy="257" r="8"></circle><text x="366" y="248">Zhangjiajie</text></g>
+              <g class="city"><circle cx="272" cy="253" r="8"></circle><text x="246" y="280">Chengdu</text></g>
+              <g class="city"><circle cx="330" cy="302" r="8"></circle><text x="309" y="329">Chongqing</text></g>
+              <g class="transport"><text x="156" y="105">✈</text><text x="283" y="131">🚄</text><text x="388" y="252">✈</text><text x="488" y="265">🚄</text><text x="332" y="230">✈</text><text x="290" y="281">🚄</text></g>
+              <text x="16" y="442" class="map-note">Mapa esquemático · no está a escala</text>
+            </svg>
+          </article>
+
+          <article class="summary-card">
+            <h3>Por qué gusta</h3>
+            <ul class="check-list">
+              <li>El viaje común incluye antes los paisajes de Guilin y Yangshuo.</li>
+              <li>La extensión es potente, más interior y más diferente.</li>
+              <li>Puede ser la ruta más atractiva si queréis más contraste.</li>
+              <li>Combina patrimonio, río y paisajes sin esperar a la extensión para vivir naturaleza.</li>
+              <li>Es la alternativa más relajada para quienes prefieren menos ciudad y más tiempo al aire libre.</li>
+            </ul>
+            <h3>Ritmo</h3>
+            <p>Algo más variado. La primera quincena es muy fotogénica; la extensión es más aventurera.</p>
+          </article>
+        </div>
+
+        <section class="stops-grid">
+          <button class="stop-card beijing" type="button" data-stop="beijing" aria-haspopup="dialog"><div class="stop-overlay"><h3>Pekín · 4 noches</h3><p>Palacios, hutongs, Templo del Cielo y Gran Muralla.</p></div></button>
+          <button class="stop-card xian" type="button" data-stop="xian" aria-haspopup="dialog"><div class="stop-overlay"><h3>Xi'an · 2 noches</h3><p>Guerreros de Terracota, muralla y barrio musulmán.</p></div></button>
+          <button class="stop-card guilin" type="button" data-stop="guilin" aria-haspopup="dialog"><div class="stop-overlay"><h3>Guilin / Yangshuo · 3 noches</h3><p>Río Li, paisajes kársticos y caminos entre arrozales.</p></div></button>
+          <button class="stop-card shanghai" type="button" data-stop="shanghai" aria-haspopup="dialog"><div class="stop-overlay"><h3>Shanghái · 4 noches</h3><p>Bund, concesión francesa, skyline y cierre del viaje común.</p></div></button>
+          <button class="stop-card zhangjiajie" type="button" data-stop="zhangjiajie" aria-haspopup="dialog"><div class="stop-overlay"><h3>Zhangjiajie · 3 noches</h3><p>Montañas de Avatar, puentes y miradores.</p></div></button>
+          <button class="stop-card chengdu" type="button" data-stop="chengdu" aria-haspopup="dialog"><div class="stop-overlay"><h3>Chengdu · 2 noches</h3><p>Pandas y sabores picantes de Sichuan.</p></div></button>
+          <button class="stop-card chongqing" type="button" data-stop="chongqing" aria-haspopup="dialog"><div class="stop-overlay"><h3>Chongqing · 2 noches</h3><p>Neón, río Yangtsé, teleférico y hotpot.</p></div></button>
+        </section>
+      </section>
+
+      <section class="route-panel comparison" id="comparison">
+        <div class="comparison-copy">
+          <p class="route-kicker">Decisión de grupo</p>
+          <h2>Comparando las tres rutas</h2>
+          <p>Una lectura rápida para elegir el tipo de viaje que mejor encaja con el grupo antes de entrar en cada ruta.</p>
+        </div>
+
+        <section class="quick-comparison" aria-labelledby="quick-comparison-title">
+          <h3 id="quick-comparison-title">Comparativa rápida</h3>
+          <div class="quick-table" role="table" aria-label="Resumen rápido de las rutas">
+            <div class="quick-row quick-head" role="row"><span role="columnheader">Ruta</span><span role="columnheader">14 días</span><span role="columnheader">Ritmo</span><span role="columnheader">Naturaleza</span><span role="columnheader">Ideal si...</span></div>
+            <div class="quick-row" role="row"><strong role="cell">⭐ 1 · Zhangjiajie</strong><span role="cell">PEK · XIY · DYG · SHA</span><span role="cell">Medio</span><span role="cell" class="stars" aria-label="Tres de tres">★★★</span><span role="cell">Queremos máxima variedad</span></div>
+            <div class="quick-row" role="row"><strong role="cell">🐼 2 · Chengdu</strong><span role="cell">PEK · XIY · CTU · SHA</span><span role="cell">Medio</span><span role="cell" class="stars" aria-label="Una de tres">★</span><span role="cell">Priorizamos gastronomía, cultura y pandas</span></div>
+            <div class="quick-row" role="row"><strong role="cell">🌄 3 · Yangshuo</strong><span role="cell">PEK · XIY · KWL · SHA</span><span role="cell">Más calmado</span><span role="cell" class="stars" aria-label="Tres de tres">★★★</span><span role="cell">Preferimos paisaje y relax</span></div>
+          </div>
+          <p class="comparison-note">Presupuestos orientativos por persona. Vuelos, horarios y conexiones definitivas deberán revisarse cuando estén disponibles para agosto/septiembre de 2027.</p>
+        </section>
+
+        <section class="detailed-comparison" aria-labelledby="detailed-comparison-title">
+          <h3 id="detailed-comparison-title">Qué incluye cada una</h3>
+          <div class="comparison-table" role="table" aria-label="Comparación detallada de las rutas">
+            <div class="table-row table-head" role="row"><span role="columnheader"></span><span role="columnheader"><i class="route-dot route-one"></i>Ruta 1</span><span role="columnheader"><i class="route-dot route-two"></i>Ruta 2</span><span role="columnheader"><i class="route-dot route-three"></i>Ruta 3</span></div>
+            <div class="table-row" role="row"><span>Pekín</span><span class="included">✓</span><span class="included">✓</span><span class="included">✓</span></div>
+            <div class="table-row" role="row"><span>Xi'an</span><span class="included">✓</span><span class="included">✓</span><span class="included">✓</span></div>
+            <div class="table-row" role="row"><span>Shanghái</span><span class="included">✓</span><span class="included">✓</span><span class="included">✓</span></div>
+            <div class="table-row" role="row"><span>Zhangjiajie</span><span class="included">✓</span><span>Solo extensión</span><span>Solo extensión</span></div>
+            <div class="table-row" role="row"><span>Chengdu</span><span class="excluded">×</span><span class="included">✓</span><span>Solo extensión</span></div>
+            <div class="table-row" role="row"><span>Guilin / Yangshuo</span><span>Solo extensión</span><span>Solo extensión</span><span class="included">✓</span></div>
+            <div class="table-row" role="row"><span>Hong Kong</span><span>Extensión · 2 noches</span><span>Extensión · 2 noches</span><span class="excluded">×</span></div>
+            <div class="table-row score-row" role="row"><span>Naturaleza · primeras 2 semanas</span><span class="stars">★★★</span><span class="stars">★</span><span class="stars">★★★</span></div>
+            <div class="table-row score-row" role="row"><span>Gastronomía</span><span class="stars">★★</span><span class="stars">★★★</span><span class="stars">★★</span></div>
+            <div class="table-row score-row" role="row"><span>Variedad</span><span class="stars">★★★</span><span class="stars">★★★</span><span class="stars">★★★</span></div>
+            <div class="table-row" role="row"><span>Ritmo</span><span>Medio</span><span>Medio</span><span>Más tranquilo</span></div>
+            <div class="table-row" role="row"><span>Traslados</span><span>Medios</span><span>Medios</span><span>Medios</span></div>
+            <div class="table-row verdict-row" role="row"><span>Mi valoración · 14 días</span><span>🥇 La más redonda</span><span>🥈 Cultura y comida</span><span>🥉 Paisaje y calma</span></div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <dialog class="stop-dialog" aria-labelledby="stop-dialog-title">
+    <button class="dialog-close" type="button" aria-label="Cerrar detalles">×</button>
+    <img class="dialog-image" src="" alt="">
+    <div class="dialog-copy">
+      <p class="route-kicker" id="stop-dialog-kicker"></p>
+      <h2 id="stop-dialog-title"></h2>
+      <p id="stop-dialog-intro"></p>
+      <ul class="detail-list" id="stop-dialog-list"></ul>
+    </div>
+  </dialog>
+
+  <script src="./script.js"></script>
+</body>
+</html>
