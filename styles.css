@@ -344,6 +344,60 @@ svg {
 .chengdu { background-image: linear-gradient(135deg, rgba(20, 66, 37, 0.18), rgba(20, 66, 37, 0.5)), url("https://www.localchengdutours.com/public/upload/photo/chengdu-research-base-of-giant-panda-breeding/img_658_d20210426093735.jpg"); }
 .chongqing { background-image: linear-gradient(135deg, rgba(42, 26, 69, 0.18), rgba(42, 26, 69, 0.52)), url("https://p7.itc.cn/images01/20230101/8115d084b6cd41acb40df072752174e8.jpeg"); }
 
+.route-insights,
+.planning-note {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.insight-card,
+.planning-note article {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 22px;
+  background: #ffffff;
+}
+
+.insight-card:first-child { background: rgba(163, 211, 224, 0.24); }
+.insight-card:last-child { background: rgba(232, 203, 166, 0.3); }
+.insight-label { margin: 0 0 7px; color: var(--red); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+.insight-card h3,
+.planning-note h3 { margin-bottom: 8px; font-size: 1.05rem; }
+.insight-card p,
+.planning-note p { margin: 0; color: var(--muted); line-height: 1.6; }
+
+.planning-note { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.planning-note article:first-child { background: var(--pink); border-color: var(--pink); }
+.planning-note article:nth-child(2) { background: var(--sand); border-color: var(--sand); }
+.planning-note article:last-child { background: var(--cyan); border-color: var(--cyan); }
+
+.itinerary-details {
+  margin-top: 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0 22px;
+  background: #ffffff;
+}
+
+.itinerary-details summary {
+  cursor: pointer;
+  padding: 18px 0;
+  font-weight: 800;
+}
+
+.itinerary-details ol {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 20px;
+  padding-left: 22px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.itinerary-details li::marker { color: var(--red); font-weight: 800; }
+
 .comparison {
   margin-top: 0;
 }
@@ -444,7 +498,9 @@ svg {
 @media (max-width: 900px) {
   .hero,
   .route-layout,
-  .stops-grid {
+  .stops-grid,
+  .route-insights,
+  .planning-note {
     grid-template-columns: 1fr;
   }
 
